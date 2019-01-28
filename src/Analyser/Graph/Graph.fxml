@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.Pane?>
+<VBox xmlns="http://javafx.com/javafx/8"
+      xmlns:fx="http://javafx.com/fxml/1"
+      stylesheets="/Analyser/Graph/GraphStyle.css"
+      fx:controller="Analyser.Graph.GraphController"
+      fx:id="root">
+    <ScrollPane hbarPolicy="ALWAYS"
+                pannable="true"
+                vbarPolicy="NEVER">
+        <VBox fx:id="pane">
+            <HBox fx:id="names"></HBox>
+
+            <Pane>
+                <ProgressIndicator fx:id="prog" progress="0"/>
+            </Pane>
+            <padding> <Insets top="20" right="20" bottom="20" left="20" /> </padding>
+        </VBox>
+    </ScrollPane>
+</VBox>
+

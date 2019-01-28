@@ -1,0 +1,8 @@
+.name{
+    -fx-font-size: 32px;
+    -fx-text-alignment: right;
+    -fx-alignment: center-right;
+}
+.message{
+    -fx-wrap-text: true;
+}

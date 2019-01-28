@@ -1,0 +1,6 @@
+#names Label{
+    -fx-min-width: 160; -fx-max-width: 160;
+    -fx-rotate: -90;
+    -fx-wrap-text: true;
+    -fx-alignment: top-left;
+}
