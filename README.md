@@ -1,3 +1,8 @@
+## Skype DB visualiser
+
+* **Frontend:** JavaFX
+* **Database:** sqlite database files created by Skype
+
 A simple tool for personal use to graph when and how much people have been talking 
 in different skype chats  
 Reads the database files from your own disk
